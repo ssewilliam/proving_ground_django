@@ -1,0 +1,19 @@
+{
+    "buildpacks": [{
+        "url": "heroku/python"
+    }],
+    "description": "Manage deploys on Heroku",
+    "env": {
+        "DISABLE_COLLECTSTATIC": {
+            "required": true
+        }
+    },
+    "formation": {
+        "web": {
+            "quantity": 1
+        }
+    },
+    "name": "proving_ground_django",
+    "scripts": {},
+    "stack": "heroku-18"
+}

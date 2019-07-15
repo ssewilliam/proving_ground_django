@@ -16,4 +16,4 @@ class UploadView(APIView):
             file_serializer.save()
             return Response(file_serializer.data, status=status.HTTP_201_CREATED)
         return Response(file_serializer.data, status=status.HTTP_400_BAD_REQUEST)
-# Create your views here.
+
