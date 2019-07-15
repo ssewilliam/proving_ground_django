@@ -30,7 +30,9 @@ ALLOWED_HOSTS = [
     'file-upload-front.herokuapp.com',
     'localhost',
     'localhost:8000',
+    'localhost:6000',
     'localhost:3000',
+    '127.0.0.1:8000'
 ]
 
 
