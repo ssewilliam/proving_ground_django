@@ -25,7 +25,10 @@ SECRET_KEY = 'x3(v-yf^m0xy4v)zgz)#-oct_0&(3)_8uuu=1yyrvil%1_c$l4'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'django-file-upload.herokuapp.com',
+    'file-upload-front.herokuapp.com',
+]
 
 
 # Application definition
