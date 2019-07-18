@@ -24,15 +24,3 @@ from django.conf.urls.static import static
 urlpatterns = [
     path('upload/', include('uploadapp.urls', namespace='uploadapp')),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
-
-# if settings.DEBUG:
-
-#     urlpatterns += [
-#         path(settings.MEDIA_URL[1:], serve, {
-#             'document_root': settings.MEDIA_ROOT})
-#     ]
-
-
-# urlpatterns = [
-#     # ... the rest of your URLconf goes here ...
-# ]
